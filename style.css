@@ -74,6 +74,18 @@ nav a:hover {
 }
 #clock{
     font-family: monospace;
-    margin-left: 10x;
-    color:white;
+    margin-left: 10px;
+    color:rgb(244, 241, 241);
+}
+#dispact-open{
+background: #287ee8;
+color:white;
+padding:12px 20px;
+border-radius: 8px;
+font-weight: bold;
+cursor: pointer;
+border: none;
+}
+#dispact-open:hover {
+    background: #1765c3;
 }
