@@ -89,9 +89,36 @@ border: none;
 #dispact-open:hover {
     background: #1765c3;
 }
-#kpi-grid {
+.page {
+    padding: 35px 5%;
+}
+.page p{
+    color: #91a8c5;
+}
+.kpi-grid{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(4, 1fr);  
     gap: 20px;
-    padding: 20px 4%;
+    margin-bottom: 30px;  
+
+}
+.kpi-card, .panel{
+ background-color: #14243a;
+ border: 1px solid #2a4262;
+ border-radius: 12px;
+
+}
+.kpi-card {
+    padding: 22px;
+transition: 0.2s;
+}
+.kpi-card:hover {
+    border-color: #438cff;
+  transform:translate(-3px);
+}
+.kpi-card span{
+    color:#91a8c5;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-weight: bold;
 }
