@@ -122,3 +122,13 @@ transition: 0.2s;
     letter-spacing: 1px;
     font-weight: bold;
 }
+.kpi-card h2{
+    color:#54a5ff;
+    font-size: 24px;
+    margin-top: 10px;
+}
+.kpi-card p{
+    color:#91a8c5;
+    font-size: 12px;
+    margin-top: 10px;
+}
