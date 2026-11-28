@@ -132,3 +132,9 @@ transition: 0.2s;
     font-size: 12px;
     margin-top: 10px;
 }
+.section-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
